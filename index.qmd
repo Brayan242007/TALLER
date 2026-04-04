@@ -1,15 +1,18 @@
 ---
 title: "Estadística I"
 subtitle: "Distribución De Frecuencias"
-date: today # Fecha actual en formato español
 author: 
   - name: "Paula Andrea Arevalo Pacheco<br>Brayan Daniel Quiñones Bohorquez<br>Paula Andrea Saldaña Cuellar"
     affiliation: "Universidad del Tolima"
     affiliation-url: "https://www.ut.edu.co/"
-title-block-banner: "#A31C00"
+date: today
 lang: es
+title-block-banner: "#A31C00"
+# Si tienes un archivo .bib, ponlo aquí. Si no, borra esta línea:
+# bibliography: referencias.bib 
 format:
   html:
+    theme: cosmo
     page-layout: full
     fontsize: 1rem
     toc: true
@@ -19,24 +22,23 @@ format:
     code-summary: "Ver código"
     html-math-method: katex
     smooth-scroll: true
-    link-external-icon: true # muestra ícono en enlaces externos
+    link-external-icon: true
     link-external-newwindow: true
     citations-hover: true
     footnotes-hover: true
     css: styles.css
-    theme: "cosmo" # Opción de tema alternativo más profesional
-    highlight-style: "solarized" # Resaltado de código con contraste
-    code-overflow: "scroll" # Controla desbordamiento de código en pantallas pequeñas
+    highlight-style: solarized
+    code-overflow: scroll
 editor: visual
+execute:
+  message: false
+  warning: false
 knitr:
   opts_chunk: 
-    message: false
-    warning: false
     fig.align: "center"
-    fig.width: 7 # Ajusta el ancho de las figuras
-    fig.height: 5 # Ajusta la altura de las figuras
-    out.width: "100%" # Asegura que las figuras se adapten al ancho del contenido
-    bibliography: https://api.pageplace.de/preview/DT0400.9789587717440_A50246793/preview-9789587717440_A50246793.pdf
+    fig.width: 7
+    fig.height: 5
+    out.width: "100%"
 ---
 
 ------------------------------------------------------------------------
@@ -545,7 +547,7 @@ $$
 Una tabla típica contiene las siguientes columnas:
 
 | Clase | Marca de clase | Frecuencia absoluta | Frecuencia acumulada | Frecuencia relativa | Frecuencia relativa acumulada |
-|----|----|----|----|----|----|
+|------------|------------|------------|------------|------------|------------|
 | $C_i$ | $x_i$ | $f_i$ | $F_i$ | $h_i$ | $H_i$ |
 
 <br>
