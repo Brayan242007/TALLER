@@ -2,7 +2,7 @@
 title: "Estadística I"
 subtitle: "Distribución De Frecuencias"
 author: 
-  - name: Paula Andrea Arevalo Pacheco<br>Brayan Daniel Quiñones Bohorquez<br>Paula Andrea Saldaña Cuellar"
+  - name: Paula Andrea Arevalo Pacheco<br>Brayan Daniel Quiñones Bohorquez<br>Paula Andrea Saldaña Cuellar
     affiliation: "Universidad del Tolima"
     affiliation-url: "https://www.ut.edu.co/"
 date: today
@@ -48,7 +48,7 @@ options(
 
 ```{=html}
 <div style="position:absolute; top:10px; right:10px;">
-<img src="Logo UT.png" width="300">
+<img src="Logo UT.png" width="150">
 </div>
 ```
 
