@@ -2,7 +2,7 @@
 title: "Estadística I"
 subtitle: "Distribución De Frecuencias"
 author: 
-  - name: Paula Andrea Arevalo Pacheco<br>Brayan Daniel Quiñones Bohorquez<br>Paula Andrea Saldaña Cuellar
+  - name: Paula Andrea Arevalo Pacheco<br>Paula Andrea Saldaña Cuellar<br>Brayan Daniel Quiñones Bohorquez
     affiliation: "Universidad del Tolima"
     affiliation-url: "https://www.ut.edu.co/"
 date: today
@@ -1100,10 +1100,6 @@ RC
 ```
 :::
 
-::: count-note
-La amplitud debe tener tanto decimales como lo tienen los datos originales. Si tienen un decimal la formula se multiplica y se divido por 10. Si tiene dos decimales la formula se multiplica y se divide por 10, así sucesivamente.
-:::
-
 ::: panel-tabset
 ##### Diferencia
 
@@ -1125,10 +1121,6 @@ Xmin
 Xmax <- Max+4
 Xmax
 ```
-:::
-
-::: count-note
-La diferencia se debe dividir en dos números lo más equitativos de tal manera que estos números tengan tanto decimales como las datos originales. Al mínimo se le resta uno de los números y al máximo se le suma el otro.
 :::
 
 ::: panel-tabset
