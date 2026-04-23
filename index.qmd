@@ -1132,7 +1132,7 @@ La diferencia se debe dividir en dos números lo más equitativos de tal manera 
 :::
 
 ::: panel-tabset
-#### Tabla de frecuencia\`
+#### Tabla de frecuencia
 
 ```{r}
 library(dplyr)
